@@ -1,4 +1,4 @@
-FROM mcpayment/ubuntu1404
+FROM mcpayment/ubuntu1604
 
 # https://launchpad.net/~webupd8team/+archive/ubuntu/java
 # Add Oracle Java 8 PPA
