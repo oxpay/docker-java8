@@ -5,6 +5,8 @@ FROM mcpayment/ubuntu1404
 #
 # software-properties-common provides apt-add-repository
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update -y && \
     apt-get install -y software-properties-common && \ 
     apt-add-repository ppa:webupd8team/java && \
