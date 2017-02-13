@@ -8,7 +8,7 @@ FROM mcpayment/ubuntu1604
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && \
-    apt-get install -y software-properties-common wget curl maven && \ 
+    apt-get install -y software-properties-common wget curl git maven && \ 
 #    wget --no-verbose -O /tmp/apache-maven-3.3.9.tar.gz \
 #        https://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz && \
 #    echo "516923b3955b6035ba6b0a5b031fbd8b /tmp/apache-maven-3.3.9.tar.gz" | md5sum -c && \
